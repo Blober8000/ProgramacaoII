@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ex_2 {
     public static void main(String args[]){
         ex_1 ex_1 = new ex_1();
@@ -20,5 +22,13 @@ public class ex_2 {
             System.out.println(auto2.getMatricula());
         }
         System.out.println(auto1.getCilindrada() > 2000);
+
+        int howMany=0;
+        for (int i = 0; i < auto1.getTotalAutomoveis(); i++){
+            if (auto1.getTodosAutomoveis()[i].getMarca().equals("Toyota")){
+                howMany++;
+            }
+        }
+        System.out.println(howMany);
     }
 }

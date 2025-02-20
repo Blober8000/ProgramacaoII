@@ -1,8 +1,12 @@
+import java.util.Arrays;
+
 public class ex_1 {
     public class Automovel {
         private String matricula;
         private String marca;
         private int cilindrada;
+        private static Automovel[] todosAutomoveis;
+        private int posicaoArray;
 
         private static final String MATRICULA_POR_OMISSAO = "sem matrícula";
         private static final String MARCA_POR_OMISSAO = "sem marca";
@@ -14,35 +18,77 @@ public class ex_1 {
             matricula = MATRICULA_POR_OMISSAO;
             marca = MARCA_POR_OMISSAO;
             cilindrada = CILINDRADA_POR_OMISSAO;
+            posicaoArray = totalAutomoveis;
             totalAutomoveis++;
+            if (todosAutomoveis==null){
+                todosAutomoveis = new Automovel[1];
+            } else{
+                todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
+            }
+            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
         }
 
         public Automovel(String matricula, String marca, int cilindrada) {
             this.matricula = matricula;
             this.marca = marca;
             this.cilindrada = cilindrada;
+            posicaoArray = totalAutomoveis;
             totalAutomoveis++;
+            if (todosAutomoveis==null){
+                todosAutomoveis = new Automovel[1];
+            } else{
+                todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
+            }
+            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
+        }
+
+        public Automovel(String matricula, String marca, int cilindrada, int posicaoArray, boolean temporario) {
+            this.matricula = matricula;
+            this.marca = marca;
+            this.cilindrada = cilindrada;
+            this.posicaoArray = posicaoArray;
         }
 
         public Automovel(String matricula, String marca) {
             this.matricula = matricula;
             this.marca = marca;
             cilindrada = CILINDRADA_POR_OMISSAO;
+            posicaoArray = totalAutomoveis;
             totalAutomoveis++;
+            if (todosAutomoveis==null){
+                todosAutomoveis = new Automovel[1];
+            } else{
+                todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
+            }
+            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
         }
 
         public Automovel(String marca, int cilindrada) {
             matricula = MATRICULA_POR_OMISSAO;
             this.marca = marca;
             this.cilindrada = cilindrada;
+            posicaoArray = totalAutomoveis;
             totalAutomoveis++;
+            if (todosAutomoveis==null){
+                todosAutomoveis = new Automovel[1];
+            } else{
+                todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
+            }
+            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
         }
 
         public Automovel(int cilindrada, String matricula) {
             this.matricula = matricula;
             marca = MARCA_POR_OMISSAO;
             this.cilindrada = cilindrada;
+            posicaoArray = totalAutomoveis;
             totalAutomoveis++;
+            if (todosAutomoveis==null){
+                todosAutomoveis = new Automovel[1];
+            } else{
+                todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
+            }
+            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
         }
 
         public String getMatricula() {
@@ -59,14 +105,17 @@ public class ex_1 {
 
         public void setMatricula(String matricula) {
             this.matricula = matricula;
+            todosAutomoveis[this.posicaoArray]=newAutomovel(matricula, this.marca, this.cilindrada, this.posicaoArray);
         }
 
         public void setMarca(String marca) {
             this.marca = marca;
+            todosAutomoveis[this.posicaoArray]=newAutomovel(this.matricula, marca, this.cilindrada, this.posicaoArray);
         }
 
         public void setCilindrada(int cilindrada) {
             this.cilindrada = cilindrada;
+            todosAutomoveis[this.posicaoArray]=newAutomovel(this.matricula, this.marca, cilindrada, this.posicaoArray);
         }
 
         public String toString() {
@@ -94,6 +143,14 @@ public class ex_1 {
 
         public int getTotalAutomoveis() {
             return totalAutomoveis;
+        }
+
+        public Automovel[] getTodosAutomoveis(){
+            return this.todosAutomoveis;
+        }
+
+        public Automovel newAutomovel(String matricula, String marca, int cilindrada, int posicaoArray){
+            return new Automovel(matricula,marca,cilindrada,posicaoArray, true);
         }
     }
 }
