@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class ex_2 {
     public static void main(String args[]){
@@ -24,8 +24,11 @@ public class ex_2 {
         System.out.println(auto1.getCilindrada() > 2000);
 
         int howMany=0;
+        System.out.println("Qual é a marca que estás à procura?");
+        Scanner sc = new Scanner(System.in);
+        String marcaProcura = sc.nextLine();
         for (int i = 0; i < auto1.getTotalAutomoveis(); i++){
-            if (auto1.getTodosAutomoveis()[i].getMarca().equals("Toyota")){
+            if (auto1.getTodosAutomoveis()[i].getMarca().equals(marcaProcura)){
                 howMany++;
             }
         }
