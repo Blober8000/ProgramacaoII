@@ -9,8 +9,8 @@ public class ex_1 {
         private float raio;
         private float altura;
 
-        private static float RAIO_OMISSO = 0;
-        private static float ALTURA_OMISSA = 0;
+        private static final float RAIO_OMISSO = 0;
+        private static final float ALTURA_OMISSA = 0;
 
         public Cilindro() {
             this.raio = RAIO_OMISSO;
