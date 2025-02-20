@@ -25,7 +25,7 @@ public class ex_1 {
             } else{
                 todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
             }
-            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
+            todosAutomoveis[todosAutomoveis.length-1] = new Automovel(matricula, marca, cilindrada, posicaoArray, true);
         }
 
         public Automovel(String matricula, String marca, int cilindrada) {
@@ -39,7 +39,7 @@ public class ex_1 {
             } else{
                 todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
             }
-            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
+            todosAutomoveis[todosAutomoveis.length-1] = new Automovel(matricula, marca, cilindrada, posicaoArray, true);
         }
 
         public Automovel(String matricula, String marca, int cilindrada, int posicaoArray, boolean temporario) {
@@ -60,7 +60,7 @@ public class ex_1 {
             } else{
                 todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
             }
-            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
+            todosAutomoveis[todosAutomoveis.length-1] = new Automovel(matricula, marca, cilindrada, posicaoArray, true);
         }
 
         public Automovel(String marca, int cilindrada) {
@@ -74,7 +74,7 @@ public class ex_1 {
             } else{
                 todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
             }
-            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
+            todosAutomoveis[todosAutomoveis.length-1] = new Automovel(matricula, marca, cilindrada, posicaoArray, true);
         }
 
         public Automovel(int cilindrada, String matricula) {
@@ -88,7 +88,7 @@ public class ex_1 {
             } else{
                 todosAutomoveis = Arrays.copyOf(todosAutomoveis,todosAutomoveis.length+1);
             }
-            todosAutomoveis[todosAutomoveis.length-1] = newAutomovel(matricula, marca, cilindrada, posicaoArray);
+            todosAutomoveis[todosAutomoveis.length-1] = new Automovel(matricula, marca, cilindrada, posicaoArray, true);
         }
 
         public String getMatricula() {
@@ -105,17 +105,17 @@ public class ex_1 {
 
         public void setMatricula(String matricula) {
             this.matricula = matricula;
-            todosAutomoveis[this.posicaoArray]=newAutomovel(matricula, this.marca, this.cilindrada, this.posicaoArray);
+            todosAutomoveis[this.posicaoArray]=new Automovel(matricula, this.marca, this.cilindrada, this.posicaoArray, true);
         }
 
         public void setMarca(String marca) {
             this.marca = marca;
-            todosAutomoveis[this.posicaoArray]=newAutomovel(this.matricula, marca, this.cilindrada, this.posicaoArray);
+            todosAutomoveis[this.posicaoArray]=new Automovel(this.matricula, marca, this.cilindrada, this.posicaoArray, true);
         }
 
         public void setCilindrada(int cilindrada) {
             this.cilindrada = cilindrada;
-            todosAutomoveis[this.posicaoArray]=newAutomovel(this.matricula, this.marca, cilindrada, this.posicaoArray);
+            todosAutomoveis[this.posicaoArray]=new Automovel(this.matricula, this.marca, cilindrada, this.posicaoArray, true);
         }
 
         public String toString() {
@@ -149,8 +149,5 @@ public class ex_1 {
             return this.todosAutomoveis;
         }
 
-        public Automovel newAutomovel(String matricula, String marca, int cilindrada, int posicaoArray){
-            return new Automovel(matricula,marca,cilindrada,posicaoArray, true);
-        }
     }
 }
