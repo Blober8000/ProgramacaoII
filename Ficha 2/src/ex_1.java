@@ -1,6 +1,6 @@
 public class ex_1 {
 
-    public class Automovel {
+    public static class Automovel {
         private String matricula;
         private String marca;
         private int cilindrada;
