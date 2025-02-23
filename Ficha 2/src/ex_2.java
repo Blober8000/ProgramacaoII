@@ -28,7 +28,7 @@ public class ex_2 {
         Scanner sc = new Scanner(System.in);
         String marcaProcura = sc.nextLine();
         for (int i = 0; i < auto1.getTotalAutomoveis(); i++){
-            if (auto1.getTodosAutomoveis()[i].getMarca().equals(marcaProcura)){
+            if (auto2.getTodosAutomoveis()[i].getMarca().equals(marcaProcura)){
                 howMany++;
             }
         }

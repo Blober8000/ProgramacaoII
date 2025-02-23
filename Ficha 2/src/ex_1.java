@@ -42,7 +42,7 @@ public class ex_1 {
             todosAutomoveis[todosAutomoveis.length-1] = new Automovel(matricula, marca, cilindrada, posicaoArray, true);
         }
 
-        public Automovel(String matricula, String marca, int cilindrada, int posicaoArray, boolean temporario) {
+        private Automovel(String matricula, String marca, int cilindrada, int posicaoArray, boolean temporario) {
             this.matricula = matricula;
             this.marca = marca;
             this.cilindrada = cilindrada;
@@ -146,7 +146,7 @@ public class ex_1 {
         }
 
         public Automovel[] getTodosAutomoveis(){
-            return this.todosAutomoveis;
+            return todosAutomoveis;
         }
 
     }
