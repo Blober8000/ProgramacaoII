@@ -17,5 +17,4 @@ format:
     css: styles.css
     toc: true
 
-
-
+output-dir: _site
