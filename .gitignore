@@ -2,3 +2,6 @@
 *.iml
 *.xml
 *.class
+*.Rproj
+*.pper
+/.Rproj.user
