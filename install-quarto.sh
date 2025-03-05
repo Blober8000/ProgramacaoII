@@ -1,16 +1,24 @@
-# install-quarto.sh for Windows
+#!/bin/bash
 
+# Update the package list and install curl and dependencies
+echo "Installing dependencies..."
+sudo apt-get update -y
+sudo apt-get install -y curl libcurl4-openssl-dev libssl-dev libxml2-dev
+
+# Download Quarto from the official release page
+echo "Downloading Quarto..."
+curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/1.0.0/quarto-1.0.0-linux-amd64.deb
+
+# Install the Quarto .deb package (works for Linux)
 echo "Installing Quarto..."
+sudo dpkg -i quarto-1.0.0-linux-amd64.deb
 
-# Download Quarto MSI installer for Windows
-curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/1.0.0/quarto-1.0.0-windows-x86_64.msi
+# Install missing dependencies, if necessary
+sudo apt-get install -f
 
-# Install Quarto using the MSI installer (works for Windows)
-echo "Installing Quarto..."
-msiexec /i quarto-1.0.0-windows-x86_64.msi /quiet /norestart
+# Remove the downloaded .deb file after installation
+rm quarto-1.0.0-linux-amd64.deb
 
-# Remove the MSI file after installation
-del quarto-1.0.0-windows-x86_64.msi
-
-# Check if Quarto is installed correctly
+# Verify if Quarto was successfully installed
+echo "Quarto installed successfully!"
 quarto --version
