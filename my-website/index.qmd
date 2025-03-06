@@ -4,4 +4,4 @@ title: "my-website"
 
 This is my own website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Man I hate quarto websites.
