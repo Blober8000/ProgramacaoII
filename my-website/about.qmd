@@ -8,4 +8,4 @@ It's very important that this works.
 
 Please please please work goddam.
 
-![Steve](A2ndsteve.png){width=100px}
+![Steve](A2ndsteve.png)
