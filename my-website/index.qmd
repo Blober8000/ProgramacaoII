@@ -5,3 +5,9 @@ title: "Blober's site"
 This is my own website.
 
 Man I hate quarto websites.
+
+![Dancing kat](dancing-cat-dancing-kitten.gif)
+
+Me during anatomy
+
+![Fear the nervous system](hehe.jpg)
