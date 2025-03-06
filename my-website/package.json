@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "postinstall": "curl -fsSL https://quarto.org/install.sh | bash"
+  }
+}
