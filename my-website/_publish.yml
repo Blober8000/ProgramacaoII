@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: e76ef4a9-6b42-4388-ad7d-77c5935a1e41
+      url: https://blober8000.netlify.app
