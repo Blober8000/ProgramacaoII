@@ -2,13 +2,19 @@ project:
   type: website
 
 website:
-  title: "Website do Blober"
+  title: "Projeto Ferramentas de Produtividade"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About me
+      - href: pagina_inicial.qmd
+        text: Página inicial
+      - href: currículo.qmd
+        text: Currículo
+      - href: projetos.qmd
+        text: Projetos
+      - href: contacto.qmd
+        text: Contacto
+      - href: imagem.qmd
+        text: Imagem
 
 format:
   html:
