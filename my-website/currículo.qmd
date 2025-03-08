@@ -1,5 +1,5 @@
 ---
-title: "Blober"
+title: "Currículo"
 ---
 
 So this website is for uni and it's what I'm going to be using
