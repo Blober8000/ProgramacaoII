@@ -4,14 +4,14 @@ title: "Projetos"
 
 # Programação
 
-## [Prog I](https://sigarra.up.pt/fmup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=535980)
+## [Prog I](https://sigarra.up.pt/fmup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=535980){target="_blank" rel="noopener noreferrer"}
 
-Todos os projetos e fichas realizados no âmbito da cadeira de Prog I estão [neste](https://github.com/Blober8000/ProgramacaoI) repositório do GitHub.
+Todos os projetos e fichas realizados no âmbito da cadeira de Prog I estão [neste](https://github.com/Blober8000/ProgramacaoI){target="_blank" rel="noopener noreferrer"} repositório do GitHub.
 
-## [Prog II](https://sigarra.up.pt/fmup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=535984)
+## [Prog II](https://sigarra.up.pt/fmup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=535984){target="_blank" rel="noopener noreferrer"}
 
-Todos os projetos e fichas realizados no âmbito da cadeira de Prog II *(e este website também)* estão [neste](https://github.com/Blober8000/ProgramacaoII) repositório do GitHub.
+Todos os projetos e fichas realizados no âmbito da cadeira de Prog II *(e este website também)* estão [neste](https://github.com/Blober8000/ProgramacaoII){target="_blank" rel="noopener noreferrer"} repositório do GitHub.
 
 ## Tempo livre
 
-No meu tempo livre também desenvolvi [este](https://github.com/Blober8000/Sudoku-Solver) projeto de programação que também publiquei no GitHub.
+No meu tempo livre também desenvolvi [este](https://github.com/Blober8000/Sudoku-Solver){target="_blank" rel="noopener noreferrer"} projeto de programação que também publiquei no GitHub.

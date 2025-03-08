@@ -6,44 +6,44 @@ title: "Currículo"
 
 ## Pré Escola
 
-[Jardim Escola João de Deus](https://jejdgaia.blogspot.com)
+[Jardim Escola João de Deus](https://jejdgaia.blogspot.com){target="_blank" rel="noopener noreferrer"}
 
 ## Primeiro Ciclo
 
 ### 1º Ano
 
-[Jardim Escola João de Deus](https://jejdgaia.blogspot.com)
+[Jardim Escola João de Deus](https://jejdgaia.blogspot.com){target="_blank" rel="noopener noreferrer"}
 
 ### 2º Ano
 
-[Escola Básica Fontiela](https://emlista.pt/escolas-basicas/vila-nova-de-gaia-escola-basica-fontiela-avintes/10808)
+[Escola Básica Fontiela](https://emlista.pt/escolas-basicas/vila-nova-de-gaia-escola-basica-fontiela-avintes/10808){target="_blank" rel="noopener noreferrer"}
 
 ### 3º e 4º Anos
 
-[Escola Básica Fernando Guedes](https://www.aegaianascente.pt/escolas06.php)
+[Escola Básica Fernando Guedes](https://www.aegaianascente.pt/escolas06.php){target="_blank" rel="noopener noreferrer"}
 
 ## Segundo Ciclo
 
 ### 5º e 6º Anos
 
-[Escola EB 2/3 Soares dos Reis](https://agsoaresreis.pt)
+[Escola EB 2/3 Soares dos Reis](https://agsoaresreis.pt){target="_blank" rel="noopener noreferrer"}
 
 ## Terceiro Ciclo
 
 ### 7º, 8º e 9º Anos
 
-[Escola Secundária Almeida Garrett](https://esagarrett.com.pt/wpr/)
+[Escola Secundária Almeida Garrett](https://esagarrett.com.pt/wpr/){target="_blank" rel="noopener noreferrer"}
 
 ## Secundário
 
 ### 10º, 11º e 12º Anos
 
-[Colégio Externato Ribadouro](https://ribadouro.com)
+[Colégio Externato Ribadouro](https://ribadouro.com){target="_blank" rel="noopener noreferrer"}
 
 ## Licenciatura
 
 ### 1º Ano (Incompleto)
 
-#### [Faculdade Medicina Universidade do Porto](https://sigarra.up.pt/fmup/pt/web_page.inicial)
+#### [Faculdade Medicina Universidade do Porto](https://sigarra.up.pt/fmup/pt/web_page.inicial){target="_blank" rel="noopener noreferrer"}
 
-Curso de [Saúde Digital Inovação Biomédica](https://sigarra.up.pt/fmup/pt/cur_geral.cur_view?pv_ano_lectivo=2024&pv_origem=CUR&pv_tipo_cur_sigla=L&pv_curso_id=30781)
+Curso de [Saúde Digital Inovação Biomédica](https://sigarra.up.pt/fmup/pt/cur_geral.cur_view?pv_ano_lectivo=2024&pv_origem=CUR&pv_tipo_cur_sigla=L&pv_curso_id=30781){target="_blank" rel="noopener noreferrer"}
