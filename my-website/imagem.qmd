@@ -2,3 +2,4 @@
 title: "Imagem"
 ---
 
+![A minha foto de perfil](Blober8000.png)

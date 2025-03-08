@@ -2,3 +2,6 @@
 title: "Contacto"
 ---
 
+O meu email institucional é este [*up202405417\@edu.med.up.pt*](https://sigarra.up.pt/fmup/pt/fest_geral.cursos_list?pv_num_unico=202405417).
+
+O meu perfil no GitHub é este [*https://github.com/Blober8000*](https://github.com/Blober8000)

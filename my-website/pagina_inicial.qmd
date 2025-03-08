@@ -1,7 +1,0 @@
----
-title: "Página Inicial"
----
-
-This is my own website.
-
-Man I hate quarto websites.

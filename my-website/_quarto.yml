@@ -5,7 +5,7 @@ website:
   title: "Projeto Ferramentas de Produtividade"
   navbar:
     left:
-      - href: pagina_inicial.qmd
+      - href: index.qmd
         text: Página inicial
       - href: currículo.qmd
         text: Currículo

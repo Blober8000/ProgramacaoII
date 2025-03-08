@@ -2,4 +2,48 @@
 title: "Currículo"
 ---
 
-So this website is for uni and it's what I'm going to be using
+# Percurso Académico
+
+## Pré Escola
+
+[Jardim Escola João de Deus](https://jejdgaia.blogspot.com)
+
+## Primeiro Ciclo
+
+### 1º Ano
+
+[Jardim Escola João de Deus](https://jejdgaia.blogspot.com)
+
+### 2º Ano
+
+[Escola Básica Fontiela](https://emlista.pt/escolas-basicas/vila-nova-de-gaia-escola-basica-fontiela-avintes/10808)
+
+### 3º e 4º Anos
+
+[Escola Básica Fernando Guedes](https://www.aegaianascente.pt/escolas06.php)
+
+## Segundo Ciclo
+
+### 5º e 6º Anos
+
+[Escola EB 2/3 Soares dos Reis](https://agsoaresreis.pt)
+
+## Terceiro Ciclo
+
+### 7º, 8º e 9º Anos
+
+[Escola Secundária Almeida Garrett](https://esagarrett.com.pt/wpr/)
+
+## Secundário
+
+### 10º, 11º e 12º Anos
+
+[Colégio Externato Ribadouro](https://ribadouro.com)
+
+## Licenciatura
+
+### 1º Ano (Incompleto)
+
+#### [Faculdade Medicina Universidade do Porto](https://sigarra.up.pt/fmup/pt/web_page.inicial)
+
+Curso de [Saúde Digital Inovação Biomédica](https://sigarra.up.pt/fmup/pt/cur_geral.cur_view?pv_ano_lectivo=2024&pv_origem=CUR&pv_tipo_cur_sigla=L&pv_curso_id=30781)

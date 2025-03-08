@@ -1,0 +1,7 @@
+---
+title: "Página Inicial"
+---
+
+Olá o meu nome é Vasco.
+
+Este site foi feito no âmbito da cadeira de [Ferramentas de Produtividade](https://sigarra.up.pt/fmup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=535985) do curso de [SauDInoB](https://sigarra.up.pt/fmup/pt/cur_geral.cur_view?pv_ano_lectivo=2024&pv_origem=CUR&pv_tipo_cur_sigla=L&pv_curso_id=30781) da [FMUP](https://sigarra.up.pt/fmup/pt/web_page.inicial).
