@@ -6,6 +6,12 @@ public class Veiculo implements Cores, Imposto {
     protected final String STRING_OMISSA = "vazia";
     protected final int INT_OMISSO = 0;
 
+    /**
+     * Este é o contrutor completo do Veículo
+     * @param matricula
+     * @param cilindrada
+     * @param cor
+     */
     public Veiculo(String matricula, int cilindrada, String cor) {
         this.matricula = matricula;
         this.cilindrada = cilindrada;
