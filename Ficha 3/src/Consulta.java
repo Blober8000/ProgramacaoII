@@ -9,7 +9,7 @@ public abstract class Consulta {
     private static double valorBase = 30.0; // euros
     private static int contador = 0;
 
-    protected static final String STRING_POR_OMISSAO ="-----";
+    protected static final String STRING_POR_OMISSAO = "-----";
 
     public Consulta() {
         this.codigo = ++contador;
@@ -19,6 +19,7 @@ public abstract class Consulta {
         this.nomeMedico = STRING_POR_OMISSAO;
         this.laudo = STRING_POR_OMISSAO;
     }
+
     public Consulta(String data, String hora, String nomePaciente, String nomeMedico) {
         this.codigo = ++contador;
         this.data = data;
@@ -79,20 +80,28 @@ public abstract class Consulta {
     public static void setValorBase(double valorBase) {
         Consulta.valorBase = valorBase;
     }
-    public String toString(){
+
+    public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append("\nCódigo: "); s.append(codigo);
-        s.append("\nData: "); s.append(data);
-        s.append("\nHora: "); s.append(hora);
-        s.append("\nNome: "); s.append(nomePaciente);
-        s.append("\nNomeMedico: "); s.append(nomeMedico);
-        s.append("\nLaudo: "); s.append(laudo);
+        s.append("\nCódigo: ");
+        s.append(codigo);
+        s.append("\nData: ");
+        s.append(data);
+        s.append("\nHora: ");
+        s.append(hora);
+        s.append("\nNome: ");
+        s.append(nomePaciente);
+        s.append("\nNomeMedico: ");
+        s.append(nomeMedico);
+        s.append("\nLaudo: ");
+        s.append(laudo);
         return s.toString();
     }
+
     public int obterHora() {
         String h = hora.substring(0, 2);
         int h1 = Integer.parseInt(h);
         return h1;
     }
+
     public abstract double calcularCustoConsulta();
-}
